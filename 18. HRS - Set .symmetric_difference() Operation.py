@@ -1,0 +1,5 @@
+n = int(input())
+c=set(map(int, input().split()))
+m = int(input())
+d=set(map(int, input().split()))
+print(len((c|d)-(c&d)))
